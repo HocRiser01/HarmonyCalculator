@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 布局文件，用来定义界面和界面内组件的属性
+-->
+<!-- DirectionalLayout  以***Layout结尾的标签都是 布局标签 -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="top"
+    ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:txt_screen"
+        ohos:width="match_parent"
+        ohos:height="50vp"
+        ohos:text_alignment="right"
+        ohos:text="0"
+        ohos:text_size="32vp"
+        ohos:right_margin="32vp"
+        ohos:right_padding="12vp"
+        ohos:left_margin="32vp"
+        ohos:top_margin="32vp"
+        ohos:background_element="$media:gray"
+        />
+
+
+<!--    <DirectionalLayout-->
+<!--        xmlns:ohos="http://schemas.huawei.com/res/ohos"-->
+<!--        ohos:height="200vp"-->
+<!--        ohos:width="match_parent"-->
+<!--        ohos:alignment="center"-->
+<!--        ohos:orientation="horizontal">-->
+<!--        <Text-->
+<!--            ohos:id="$+id:user_name"-->
+<!--            ohos:height="match_content"-->
+<!--            ohos:width="match_content"-->
+<!--            ohos:text="用户名"-->
+<!--            ohos:text_size="24vp"/>-->
+<!--        <Text-->
+<!--            ohos:left_margin="20vp"-->
+<!--            ohos:id="$+id:user_passwd"-->
+<!--            ohos:height="match_content"-->
+<!--            ohos:width="match_content"-->
+<!--            ohos:text="用户密码"-->
+<!--            ohos:text_size="24vp"/>-->
+<!--    </DirectionalLayout>-->
+
+    <TableLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:left_margin="32vp"
+        ohos:right_margin="32vp"
+        ohos:column_count="5"
+        ohos:row_count="5"
+        >
+        <Button
+            ohos:id="$+id:btn_back"
+            ohos:text="《-"
+            ohos:focus_border_width="2vp"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_CE"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="CE"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_C"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="C"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_PM"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="+-"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_SQ"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="("
+            ohos:text_size="16vp"/>
+
+
+        <Button
+            ohos:id="$+id:btn_7"
+            ohos:text="7"
+            ohos:focus_border_radius="$ohos:float:button_radius"
+            ohos:focus_border_width="2vp"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_8"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="8"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_9"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="9"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_div"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="/"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_per"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="%"
+            ohos:text_size="16vp"/>
+
+
+
+        <Button
+            ohos:id="$+id:btn_4"
+            ohos:text="4"
+            ohos:focus_border_radius="$ohos:float:button_radius"
+            ohos:focus_border_width="2vp"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_5"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="5"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_6"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="6"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_mul"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="*"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_add"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="+"
+            ohos:text_size="16vp"/>
+
+
+        <Button
+            ohos:id="$+id:btn_1"
+            ohos:text="1"
+            ohos:focus_border_radius="$ohos:float:button_radius"
+            ohos:focus_border_width="2vp"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_2"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="2"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_3"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="3"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_take"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="-"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_equals"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text=" = "
+            ohos:text_size="16vp"/>
+
+
+        <Button
+            ohos:id="$+id:btn_0"
+            ohos:text="0"
+            ohos:focus_border_radius="$ohos:float:button_radius"
+            ohos:focus_border_width="2vp"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text_size="16vp"/>
+        <Button
+            ohos:id="$+id:btn_dot"
+            ohos:width="55vp"
+            ohos:height="50vp"
+            ohos:text="."
+            ohos:text_size="16vp"/>
+
+
+    </TableLayout>
+
+
+    <!-- Text 标签 内定义文本标签的属性 -->
+<!--    <Text-->
+<!--        ohos:id="$+id:text_helloworld"-->
+<!--        ohos:height="match_content"-->
+<!--        ohos:width="match_content"-->
+<!--        ohos:background_element="$graphic:background_ability_main"-->
+<!--        ohos:layout_alignment="horizontal_center"-->
+<!--        ohos:text="$string:mainability_HelloWorld"-->
+<!--        ohos:text_size="40vp"-->
+<!--        />-->
+<!--    <Text-->
+<!--        ohos:id="$+id:text_helloerror"-->
+<!--        ohos:height="match_content"-->
+<!--        ohos:width="match_content"-->
+<!--        ohos:background_element="$graphic:background_ability_main"-->
+<!--        ohos:layout_alignment="horizontal_center"-->
+<!--        ohos:text="你好，错误"-->
+<!--        ohos:text_size="20vp"-->
+<!--        ohos:text_color="#FF2964FD"-->
+<!--        />-->
+
+</DirectionalLayout>

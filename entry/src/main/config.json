@@ -1,0 +1,91 @@
+{
+  "app": {
+    "bundleName": "com.jlu.harmony.cal",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "cleartextTraffic": true
+      }
+    }
+  },
+  "module": {
+    "package": "com.jlu.harmony.cal",
+    "name": ".MyApplication",
+    "mainAbility": "com.jlu.harmony.cal.LoginAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "name": "com.jlu.harmony.cal.MainAbility",
+        "description": "$string:mainability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.jlu.harmony.cal.LoginAbility",
+        "description": "$string:loginability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_LoginAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.jlu.harmony.cal.FindAbility",
+        "description": "$string:findability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_FindAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.jlu.harmony.cal.LogonAbility",
+        "description": "$string:logonability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_LogonAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      }
+    ]
+  }
+}

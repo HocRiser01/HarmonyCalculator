@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:background_element="$media:bg2"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+        <Text
+            ohos:id="$+id:z_title"
+            ohos:text_size="32vp"
+            ohos:width="200vp"
+            ohos:height="30vp"
+            ohos:text="欢迎注册！"
+            ohos:text_color="#50b7c1"
+            />
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+        <Text
+            ohos:id="$+id:z_username"
+            ohos:text_size="24vp"
+            ohos:width="100vp"
+            ohos:height="25vp"
+            ohos:text="用户名："
+            ohos:text_color="#f36c21"
+            />
+        <TextField
+            ohos:id="$+id:o_username"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_text_field"
+            ohos:height="50vp"
+            ohos:text_size="25vp"
+            />
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+        <Text
+            ohos:id="$+id:z_userpasswd"
+            ohos:text_size="24vp"
+            ohos:width="100vp"
+            ohos:height="25vp"
+            ohos:text="密  码："
+            ohos:text_color="#f36c21"
+            />
+        <TextField
+
+            ohos:id="$+id:o_userpasswd"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_text_field"
+            ohos:height="50vp"
+            ohos:text_size="25vp"
+            />
+
+
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+        <Text
+            ohos:id="$+id:z_verify"
+            ohos:text_size="24vp"
+            ohos:width="100vp"
+            ohos:height="25vp"
+            ohos:text="确认密码："
+            ohos:text_color="#f36c21"
+            />
+        <TextField
+
+            ohos:id="$+id:o_verify"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_text_field"
+            ohos:height="50vp"
+            ohos:text_size="25vp"
+            />
+
+
+
+    </DirectionalLayout>
+
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+        <Button
+            ohos:id="$+id:jbtn_logon"
+            ohos:text_size="24vp"
+            ohos:width="100vp"
+            ohos:height="25vp"
+            ohos:text="注册"
+            ohos:text_color="#ef4136"
+            />
+
+    </DirectionalLayout>
+
+
+</DirectionalLayout>

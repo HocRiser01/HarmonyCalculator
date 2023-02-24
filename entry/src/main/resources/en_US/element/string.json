@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "loginability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "logonability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "loginability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_LoginAbility",
+      "value": "entry_LoginAbility"
+    },
+    {
+      "name": "entry_LogonAbility",
+      "value": "entry_LogonAbility"
+    },
+    {
+      "name": "login2ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "login2ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Login2Ability",
+      "value": "entry_Login2Ability"
+    },
+    {
+      "name": "findability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "findability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_FindAbility",
+      "value": "entry_FindAbility"
+    }
+  ]
+}
